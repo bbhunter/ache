@@ -35,7 +35,7 @@ dependencies {
     implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: versions.com_fasterxml_jackson
     implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-cbor', version: versions.com_fasterxml_jackson
     implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-yaml', version: versions.com_fasterxml_jackson
-    implementation group: 'com.esotericsoftware', name: 'kryo', version: '4.0.2'
+    implementation group: 'com.esotericsoftware', name: 'kryo', version: '5.4.0'
     implementation group: 'de.javakaffee', name: 'kryo-serializers', version: '0.43'
     // REST server dependencies
     implementation group: 'io.javalin', name: 'javalin', version: '4.2.0'
